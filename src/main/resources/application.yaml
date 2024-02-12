@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/notesdb
-    username: notesdb
+    username: notes
     password: secret
   jpa:
     hibernate:
@@ -9,4 +9,4 @@ spring:
     properties:
       dialect: org.hibernate.dialect.PostgreSQLDialect
       format_sql: true
-  show-sql: true
+    show-sql: true

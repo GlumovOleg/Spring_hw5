@@ -3,6 +3,7 @@ package geekbrains.glumov_oleg.note;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "Notes")
 public class Note {
 
     @Id
